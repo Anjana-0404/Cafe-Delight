@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFC5CB;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #B88693;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #3e2723;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .menu {
+    padding: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .item button {
+    background-color: #6c584c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .cart {
+    padding: 20px;
+    background-color: #e9edc9;
+  }
+  #checkout-btn {
+    background-color: #bc6c25;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #checkout-btn:hover {
+    background-color: #99582a;
+  }
+  #searchBar {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  section h2 {
+    font-size: 1.8rem;
+    margin: 30px 10px 15px;
+    color: #5d4037;
+  }
+  
+  
